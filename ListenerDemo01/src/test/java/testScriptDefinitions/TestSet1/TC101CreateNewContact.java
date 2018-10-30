@@ -26,7 +26,7 @@ public class TC101CreateNewContact extends testScriptDefinitions.UserLibrary.Use
 		stepstatus = OpenUrl (driver); 
 		plog = "Able to launch Application";  
 		flog = "Unable to launch Application";
-		logEvent(stepstatus, plog, flog, driver, true); // false means don't take screenshot
+		logEvent(stepstatus, plog, flog, driver, true); // false means don't take screenshot.
 		wait(5);
 		
 		
